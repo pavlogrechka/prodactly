@@ -1,0 +1,36 @@
+:root {
+  /* colors */
+  --main-text-color: #2F281E;
+  --accent-color: #FF9900;
+}
+
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.ico-play {
+  width: 19px;
+  height: 19px;
+  background-image: url(assets/img/promo/play.svg);
+}
+
+/* header */
+
+.header>.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav-list {
+  display: flex;
+}
+
+/* promo section */
+
+
+/*strategies section */
