@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
 
   <title>Prodactly</title>
@@ -13,8 +13,8 @@
 
 <body>
   <header class="header">
-    <div class="content-container">
-      <a href="#" class="logo"><img src="assets/img/header/logo.svg" alt="Site logo" class="logo-img"></a>
+    <div class="wrapper">
+      <a href="#" class="header__logo"><img src="assets/img/header/logo.svg" alt="Site logo" class="logo-img"></a>
       <nav class="header__nav">
         <ul class="nav-list">
           <li><a href="#" class="nav-link">Home</a></li>
@@ -50,7 +50,7 @@
     </section>
 
     <section class="tools">
-      <div class="content-container">
+      <div class="wrapper">
         <h2>We design tools to unveil your superpowers</h2>
         <div class="tools-items layout-4-col">
           <div class="tool">
@@ -102,7 +102,7 @@
           <div class="employer block-shadowed">
             <div class="employer__content">
               <h5>Kathy Rosenberg</h5>
-              <p class="employer__title">Product Mannager</p>
+              <p class="employee__title">Product Mannager</p>
               <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
             </div>
           </div>
@@ -110,11 +110,53 @@
       </div>
     </section>
 
-
-
+    <section class="contact-us">
+      <div class="wrapper">
+        <h2>Contact Us</h2>
+        <div class="layout-2-col">
+          <div class="contact-us__content">
+            <p>Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog.
+              It also shouldn’t be their last, because first impressions count online just as much as they do in the
+              real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome
+              content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
+            <div class="contac-us__phone">
+              <a href="tel:+375(22)3450099"><span class="ico ico--tel"></span>+375 (22) 345-00-99</a>
+            </div>
+            <div class="contac-us__mail">
+              <a href="mailto:emailname@gmail.com"><span class="ico ico--mail"></span>emailname@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-us__form">
+            <form method="POST">
+              <div class="layout-2-col">
+                <input type="text" name="name" placeholder="Your name">
+                <input type="email" name="email" placeholder="Your email">
+              </div>
+              <textarea name="question" cols="30" rows="10" placeholder="What do you want to ask?"></textarea>
+              <div class="contact-us__button">
+                <button class="btn btn--accent" type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="layout-4-col"></div>
+      <a href="#" class="footer__logo"><img src="assets/img/header/logo.svg" alt="site-logo"></a>
+      <div class="footer-nav">
+        <h4>Quick links</h4>
+        <ul class="footer-nav__list">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
