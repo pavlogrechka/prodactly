@@ -1,0 +1,58 @@
+.about-us {
+  padding: 66px 0 101px;
+}
+
+.about-us__title {
+  margin: 0 0 14px;
+}
+
+.about-us__text {
+  margin: 0 0 45px;
+}
+
+.employee-wrapper {
+  padding-right: 32px;
+}
+
+.employee {
+  display: flex;
+  padding: 20px 0 23px;
+  position: relative;
+}
+
+.employee__content {
+  max-width: 222px;
+  padding-left: 35px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  > * {
+    margin: 0;
+  }
+}
+
+.employee__title {
+}
+.employee__sub-title {
+  @include font(1.4rem, 2.6rem, normal);
+}
+.employee__mail {
+  @include font(1.4rem, 2.6rem, normal);
+  text-decoration: none;
+  color: $color-link;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.employee__avatar {
+  position: absolute;
+  top: 20px;
+  right: -32px;
+  width: 98px;
+  height: 98px;
+  border-radius: 9999px;
+  overflow: hidden;
+}

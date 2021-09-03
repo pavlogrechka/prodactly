@@ -1,0 +1,57 @@
+.ico {
+  display: inline-block;
+  cursor: pointer;
+
+  &--play {
+    background-image: url(../../assets/img/promo/play.svg);
+    width: 18px;
+    height: 19px;
+  }
+
+  &--tel {
+    width: 25px;
+    height: 25px;
+    background-color: $color-light;
+    background-image: url(../../assets/img/contact-us/ico-tel.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 9999px;
+  }
+
+  &--mail {
+    width: 25px;
+    height: 25px;
+    background-color: $color-light;
+    background-image: url(../../assets/img/contact-us/ico-mail.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 9999px;
+  }
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 19px;
+
+  &--color1 {
+    background-color: $color-add-1;
+    background-image: url(../../assets/img/tools/tool1.svg);
+  }
+  &--color2 {
+    background-color: $color-add-2;
+    background-image: url(../../assets/img/tools/tool2.svg);
+  }
+  &--color3 {
+    background-color: $color-add-3;
+    background-image: url(../../assets/img/tools/tool3.svg);
+  }
+  &--color4 {
+    background-color: $color-add-4;
+    background-image: url(../../assets/img/tools/tool4.svg);
+  }
+}

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pavlogrechka/prodactly/issues"
   },
-  "homepage": "https://github.com/pavlogrechka/prodactly#readme"
+  "homepage": "https://github.com/pavlogrechka/prodactly#readme",
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  }
 }
