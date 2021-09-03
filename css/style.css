@@ -176,7 +176,7 @@ h5 {
   cursor: pointer;
 }
 .ico--play {
-  background-image: url(../../assets/img/promo/play.svg);
+  background-image: url(../../src/img/promo/play.svg);
   width: 18px;
   height: 19px;
 }
@@ -184,7 +184,7 @@ h5 {
   width: 25px;
   height: 25px;
   background-color: #ffffff;
-  background-image: url(../../assets/img/contact-us/ico-tel.svg);
+  background-image: url(../../src/img/contact-us/ico-tel.svg);
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 9999px;
@@ -193,7 +193,7 @@ h5 {
   width: 25px;
   height: 25px;
   background-color: #ffffff;
-  background-image: url(../../assets/img/contact-us/ico-mail.svg);
+  background-image: url(../../src/img/contact-us/ico-mail.svg);
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 9999px;
@@ -210,19 +210,19 @@ h5 {
 }
 .icon--color1 {
   background-color: #7752be;
-  background-image: url(../../assets/img/tools/tool1.svg);
+  background-image: url(../../src/img/tools/tool1.svg);
 }
 .icon--color2 {
   background-color: #fab005;
-  background-image: url(../../assets/img/tools/tool2.svg);
+  background-image: url(../../src/img/tools/tool2.svg);
 }
 .icon--color3 {
   background-color: #f03e3d;
-  background-image: url(../../assets/img/tools/tool3.svg);
+  background-image: url(../../src/img/tools/tool3.svg);
 }
 .icon--color4 {
   background-color: #4dadf7;
-  background-image: url(../../assets/img/tools/tool4.svg);
+  background-image: url(../../src/img/tools/tool4.svg);
 }
 
 .tags {
@@ -516,7 +516,7 @@ h5 {
 
 .tools {
   padding-top: 81px;
-  background-image: url(../../assets/img/tools/tools-bg.svg);
+  background-image: url(../../src/img/tools/tools-bg.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100%;

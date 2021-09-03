@@ -3,7 +3,7 @@
   cursor: pointer;
 
   &--play {
-    background-image: url(../../assets/img/promo/play.svg);
+    background-image: url(../../src/img/promo/play.svg);
     width: 18px;
     height: 19px;
   }
@@ -12,7 +12,7 @@
     width: 25px;
     height: 25px;
     background-color: $color-light;
-    background-image: url(../../assets/img/contact-us/ico-tel.svg);
+    background-image: url(../../src/img/contact-us/ico-tel.svg);
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 9999px;
@@ -22,7 +22,7 @@
     width: 25px;
     height: 25px;
     background-color: $color-light;
-    background-image: url(../../assets/img/contact-us/ico-mail.svg);
+    background-image: url(../../src/img/contact-us/ico-mail.svg);
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 9999px;
@@ -40,18 +40,18 @@
 
   &--color1 {
     background-color: $color-add-1;
-    background-image: url(../../assets/img/tools/tool1.svg);
+    background-image: url(../../src/img/tools/tool1.svg);
   }
   &--color2 {
     background-color: $color-add-2;
-    background-image: url(../../assets/img/tools/tool2.svg);
+    background-image: url(../../src/img/tools/tool2.svg);
   }
   &--color3 {
     background-color: $color-add-3;
-    background-image: url(../../assets/img/tools/tool3.svg);
+    background-image: url(../../src/img/tools/tool3.svg);
   }
   &--color4 {
     background-color: $color-add-4;
-    background-image: url(../../assets/img/tools/tool4.svg);
+    background-image: url(../../src/img/tools/tool4.svg);
   }
 }
