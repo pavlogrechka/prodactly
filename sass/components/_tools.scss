@@ -9,6 +9,10 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100%;
+
+  @include media-tablet {
+    padding-bottom: 40px;
+  }
 }
 .tools-wrapper {
 }
@@ -20,15 +24,26 @@
   margin-bottom: 70px;
 }
 
-.tools__items {
+.tool-container {
+  flex-wrap: wrap;
+  justify-content: center;
   > * {
     @include media-tablet {
-      flex-basis: 45%;
+      flex-basis: 42%;
+      justify-content: start;
       margin-bottom: 54px;
+      margin-right: 50px;
       text-align: center;
     }
-  }
-  @include media-mobile {
+    @include media-mobile {
+      justify-content: center;
+      flex-basis: 100%;
+      margin-right: 0;
+      margin-bottom: 47px;
+      &:last-child {
+        margin-bottom: 38px;
+      }
+    }
   }
 }
 

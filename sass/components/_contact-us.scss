@@ -1,10 +1,33 @@
 .contact-us {
   background: $color-bg;
-  padding: 62px 82px;
+  padding: 62px 0 62px;
+
+  @include media-tablet {
+    text-align: center;
+  }
+
+  @include media-mobile {
+    padding: 34px 0 49px;
+  }
 }
 
 .contact-us__title {
   margin: 0 0 17px;
+}
+
+.contact-us-container {
+  @include media-tablet {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.contact-us__content {
+  max-width: 520px;
+  @include media-tablet {
+    max-width: 100%;
+    margin-bottom: 54px;
+  }
 }
 
 .contact-us__form {
@@ -25,16 +48,35 @@
     resize: none;
     height: 160px;
     width: 100%;
+
+    @include media-mobile {
+      margin-bottom: 24px;
+    }
   }
 }
 
 .contact-us__line {
   margin-bottom: 19px;
+  // > input {
+  //   width: auto;
+  // }
+
+  @include media-mobile {
+    flex-direction: column;
+    margin-bottom: 0;
+    > * {
+      margin-bottom: 19px;
+    }
+  }
 }
 
 .contact-us__button {
-  > * {
+  > button {
     min-width: 117px;
+    @include media-mobile {
+      padding-left: 65px;
+      padding-right: 65px;
+    }
   }
 }
 

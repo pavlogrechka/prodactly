@@ -1,5 +1,9 @@
 .tags {
   display: flex;
+
+  @include media-tablet {
+    // justify-content: center;
+  }
   > * {
     margin-right: 7px;
   }

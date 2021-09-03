@@ -1,9 +1,27 @@
 .footer {
   padding: 58px 0 52px;
 }
+
+.footer__logo {
+  @include media-tablet {
+    margin-bottom: 34px;
+  }
+  @include media-mobile {
+    margin-bottom: 27px;
+  }
+}
 .footer-nav {
   flex-grow: 1;
   padding-left: 152px;
+
+  @include media-tablet {
+    padding-left: 0;
+  }
+
+  @include media-mobile {
+    padding-left: 0;
+    flex-direction: column;
+  }
 }
 
 .footer-nav__title {
