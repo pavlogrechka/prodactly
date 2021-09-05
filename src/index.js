@@ -113,7 +113,6 @@ const generateArticles = (data) => {
   data.forEach(article => {
     articles.push(new Article(article))
   });
-  console.log(articles)
   return articles;
 }
 
