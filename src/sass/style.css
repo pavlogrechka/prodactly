@@ -960,6 +960,9 @@ h5 {
   display: flex;
   flex-direction: column;
 }
+.strategy--hidden {
+  display: none;
+}
 
 .strategy-wrapper > * {
   margin-bottom: 30px;
