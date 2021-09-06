@@ -14,7 +14,7 @@ export class Article {
 		article.setAttribute('data-id', this.id)
 
 		this.urlToImage &&
-			(template += `<img class = "strategy__image" src=${this.urlToImage} alt="strategy">`)
+			(template += `<div class = "strategy__image-wrapper"><img class = "strategy__image" src=${this.urlToImage} alt="strategy"></div>`)
 
 		if (this.title || this.tags) {
 			template += `<div class="strategy__content">`;

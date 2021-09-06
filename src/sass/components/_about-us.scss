@@ -1,13 +1,23 @@
 .about-us {
   padding: 66px 0 101px;
+
+  @include media-tablet {
+    text-align: center;
+  }
 }
 
 .about-us__title {
   margin: 0 0 14px;
+  @include media-tablet {
+  }
 }
 
 .about-us__text {
   margin: 0 0 45px;
+
+  @include media-tablet {
+    margin-bottom: 37px;
+  }
 }
 
 .employee-wrapper {
@@ -23,17 +33,15 @@
 .employee__content {
   max-width: 222px;
   padding-left: 35px;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
+  text-align: left;
+
   > * {
     margin: 0;
   }
 }
 
-.employee__title {
-}
+// .employee__title {
+// }
 .employee__sub-title {
   @include font(1.4rem, 2.6rem, normal);
 }

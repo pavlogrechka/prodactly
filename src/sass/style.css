@@ -360,6 +360,12 @@ template {
   border-radius: 10px;
 }
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 10px;
 }
@@ -445,6 +451,14 @@ h5 {
   font-style: normal;
   font-weight: 400;
   src: local(""), url("../../../assets/fonts/open-sans-v23-latin-regular.woff2") format("woff2"), url("../../../assets/fonts/open-sans-v23-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../../../assets/fonts/open-sans-v23-latin-600.woff2") format("woff2"), url("../../../assets/fonts/open-sans-v23-latin-600.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* open-sans-700 - latin */
@@ -682,6 +696,7 @@ h5 {
 
 .wrapper {
   max-width: 1196px;
+  padding: 0 40px;
   margin: 0 auto;
 }
 @media (max-width: 768px) {
@@ -880,6 +895,9 @@ h5 {
   }
 }
 
+.promo__image {
+  min-width: 55%;
+}
 @media (max-width: 414px) {
   .promo__image {
     max-width: 100%;
@@ -889,6 +907,11 @@ h5 {
     max-width: 100%;
   }
 }
+.promo__image > img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
 .promo__buttons {
   display: flex;
 }
@@ -1035,9 +1058,30 @@ h5 {
   }
 }
 
+.strategy__image-wrapper {
+  flex: 1 0 auto;
+}
+@media (max-width: 768px) {
+  .strategy__image-wrapper {
+    position: relative;
+    padding: 0 0 58% 0;
+  }
+}
+
 .strategy__image {
-  display: flex;
+  width: 100%;
   max-width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .strategy__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .block-shadowed {
@@ -1065,7 +1109,6 @@ h5 {
 .strategy__title:hover {
   color: #ff9900;
 }
-
 .article-modal__content .strategy__image {
   width: 100%;
 }
@@ -1091,13 +1134,22 @@ h5 {
 .about-us {
   padding: 66px 0 101px;
 }
+@media (max-width: 768px) {
+  .about-us {
+    text-align: center;
+  }
+}
 
 .about-us__title {
   margin: 0 0 14px;
 }
-
 .about-us__text {
   margin: 0 0 45px;
+}
+@media (max-width: 768px) {
+  .about-us__text {
+    margin-bottom: 37px;
+  }
 }
 
 .employee-wrapper {
@@ -1113,6 +1165,7 @@ h5 {
 .employee__content {
   max-width: 222px;
   padding-left: 35px;
+  text-align: left;
 }
 .employee__content > * {
   margin: 0;
@@ -1220,6 +1273,13 @@ h5 {
   }
 }
 
+.contact-us__line {
+  box-sizing: border-box;
+}
+.contact-us__line > input {
+  width: 100%;
+}
+
 .contact-us__button > button {
   min-width: 117px;
 }
@@ -1231,7 +1291,7 @@ h5 {
 }
 
 .contact-us__text {
-  margin-bottom: 33px;
+  margin: 0 0 33px;
 }
 
 .contact-us__phone,

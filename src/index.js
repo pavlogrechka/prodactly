@@ -5,7 +5,7 @@ import { ArticleModal } from "./js/ArticleModal";
 const data = [
   {
     id: '1',
-    title: 'Increasing Prosperity With Positive Thinking',
+    title: 'Increasing Prosperity With Positive Thinking With Positive Thinking',
     urlToImage: './src/img/strategies/strategy.jpg',
     tags: ['Design', 'Culture'],
     content: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti beatae nesciunt repellendus commodi laudantium quibusdam voluptatum. Totam omnis dolorem numquam.',
@@ -14,7 +14,7 @@ const data = [
   {
     id: '2',
     title: 'Increasing Prosperity With Positive Thinking',
-    urlToImage: './src/img/strategies/strategy.jpg',
+    urlToImage: './src/img/strategies/strategy2.jpg',
     tags: ['Art'],
     content: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti beatae nesciunt repellendus commodi laudantium quibusdam voluptatum. Totam omnis dolorem numquam.',
     date: '11.11.2021',
@@ -30,7 +30,15 @@ const data = [
   {
     id: '4',
     title: 'Increasing Prosperity With Positive Thinking',
-    urlToImage: './src/img/strategies/strategy2.jpg',
+    urlToImage: './src/img/strategies/strategy4.jpg',
+    tags: ['Art', 'Design'],
+    content: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti beatae nesciunt repellendus commodi laudantium quibusdam voluptatum. Totam omnis dolorem numquam.',
+    date: '11.11.2021',
+  },
+  {
+    id: '5',
+    title: 'Increasing Prosperity With Positive Thinking',
+    urlToImage: './src/img/strategies/strategy5.jpg',
     tags: ['Art', 'Design'],
     content: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti beatae nesciunt repellendus commodi laudantium quibusdam voluptatum. Totam omnis dolorem numquam.',
     date: '11.11.2021',

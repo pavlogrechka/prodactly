@@ -70,6 +70,13 @@
   }
 }
 
+.contact-us__line {
+  box-sizing: border-box;
+  > input {
+    width: 100%;
+  }
+}
+
 .contact-us__button {
   > button {
     min-width: 117px;
@@ -81,7 +88,7 @@
 }
 
 .contact-us__text {
-  margin-bottom: 33px;
+  margin: 0 0 33px;
 }
 
 .contact-us__phone,
